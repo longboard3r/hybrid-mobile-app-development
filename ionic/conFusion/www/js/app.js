@@ -46,7 +46,8 @@ angular.module('conFusion', ['ionic', 'conFusion.controllers', 'conFusion.servic
       url: '/aboutus',
       views: {
         'mainContent': {
-          templateUrl: 'templates/aboutus.html'
+          templateUrl: 'templates/aboutus.html',
+          controller: 'AboutController'
         }
       }
     })
@@ -60,12 +61,12 @@ angular.module('conFusion', ['ionic', 'conFusion.controllers', 'conFusion.servic
       }
     })
 
-    .state('app.menu', {
+   .state('app.menu', {
       url: '/menu',
       views: {
         'mainContent': {
           templateUrl: 'templates/menu.html',
-          controller: ''
+          controller: 'MenuController'
         }
       }
     })
@@ -75,7 +76,7 @@ angular.module('conFusion', ['ionic', 'conFusion.controllers', 'conFusion.servic
     views: {
       'mainContent': {
         templateUrl: 'templates/dishdetail.html',
-        controller: ''
+        controller: 'DishDetailController'
       }
     }
   });
