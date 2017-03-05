@@ -145,7 +145,7 @@ angular.module('conFusion.controllers', [])
                 console.log('Ok to delete');
                 favoriteFactory.deleteFromFavorites(index);
             } else {
-                console.log('Canceled delete');
+                console.log('Cancelled delete');
             }
         });
 
@@ -286,12 +286,10 @@ angular.module('conFusion.controllers', [])
 ])
 
 .controller('AboutController', ['$scope', 'leaders', 'baseURL', 
-  function($scope, leaders, baseURL) {
-    
+  function($scope, leaders, baseURL) {    
             
             $scope.baseURL = baseURL;
-            $scope.leaders = leaders;
-            
+            $scope.leaders = leaders;            
     
   }
 ])
