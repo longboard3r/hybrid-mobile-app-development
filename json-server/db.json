@@ -109,6 +109,12 @@
           "comment": "",
           "author": "",
           "date": "2016-12-15T05:20:20.101Z"
+        },
+        {
+          "rating": "5",
+          "comment": "Awesome!",
+          "author": "BJ",
+          "date": "2017-03-05T02:46:03.183Z"
         }
       ]
     },
@@ -156,6 +162,12 @@
           "comment": "ccsdcscdcssdc\ndcsdc\nsdc",
           "author": "Joseph Barrowcliffe",
           "date": "2016-12-15T05:25:39.651Z"
+        },
+        {
+          "rating": 5,
+          "comment": "",
+          "author": "",
+          "date": "2017-03-05T02:46:43.497Z"
         }
       ]
     },
